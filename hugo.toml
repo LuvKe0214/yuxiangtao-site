@@ -19,15 +19,15 @@ relativeURLs = false
 
     [[params.profileMode.buttons]]
       name = "Research"
-      url = "research/"
+      url = "https://luvke0214.github.io/yuxiangtao-site/research/"
 
     [[params.profileMode.buttons]]
       name = "Projects"
-      url = "projects/"
+      url = "https://luvke0214.github.io/yuxiangtao-site/projects/"
 
     [[params.profileMode.buttons]]
       name = "Works"
-      url = "works/"
+      url = "https://luvke0214.github.io/yuxiangtao-site/works/"
 
 [menu]
   [[menu.main]]
