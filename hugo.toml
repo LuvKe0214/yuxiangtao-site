@@ -32,12 +32,12 @@ relativeURLs = false
 [menu]
   [[menu.main]]
     name = "About"
-    url = "about/"
+   url = "https://luvke0214.github.io/yuxiangtao-site/about/"
     weight = 10
 
   [[menu.main]]
     name = "Research"
-    url = "research/"
+    url = "https://luvke0214.github.io/yuxiangtao-site/research/"
     weight = 20
 
   [[menu.main]]
