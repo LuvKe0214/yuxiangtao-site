@@ -4,7 +4,6 @@ languageCode = "en-us"
 theme = "PaperMod"
 enableRobotsTXT = true
 
-# ✅ 关键：强制用绝对 URL，避免 ./ 这种相对路径
 canonifyURLs = true
 relativeURLs = false
 
@@ -13,46 +12,45 @@ relativeURLs = false
   defaultTheme = "auto"
   disableThemeToggle = false
 
+  [params.profileMode]
+    enabled = true
+    title = "Yuxiang Tao"
+    subtitle = "Ohio State University | Computer Science Engineering | Microbiome Simulation & Deep Learning & LLM"
+
+    [[params.profileMode.buttons]]
+      name = "Research"
+      url = "research/"
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "projects/"
+
+    [[params.profileMode.buttons]]
+      name = "Works"
+      url = "works/"
+
 [menu]
   [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "about/"
     weight = 10
+
   [[menu.main]]
     name = "Research"
-    url = "/research/"
+    url = "research/"
     weight = 20
+
   [[menu.main]]
     name = "Projects"
-    url = "/projects/"
+    url = "projects/"
     weight = 30
+
   [[menu.main]]
     name = "Academics/Skills"
-    url = "/academics/"
+    url = "academics/"
     weight = 40
+
   [[menu.main]]
     name = "Works"
-    url = "/works/"
+    url = "works/"
     weight = 50
-
-
-  [params.profileMode]
-  enabled = true
-  title = "Yuxiang Tao"
-  subtitle = "Ohio State University | Computer Science Engineering | Microbiome Simulation & Deep Learning & LLM"
-
-  [[params.profileMode.buttons]]
-    name = "Research"
-    url = "/research/"
-
-  [[params.profileMode.buttons]]
-    name = "Projects"
-    url = "/projects/"
-
-  [[params.profileMode.buttons]]
-    name = "Works"
-    url = "/works/"
-
-
-
-  
