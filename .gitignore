@@ -1,0 +1,12 @@
+.DS_Store
+.Rhistory
+.hugo_build.lock
+
+# Hugo build output
+/public/
+resources/_gen/
+
+# editor files
+.vscode/
+.idea/
+.DS_Store
