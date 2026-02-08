@@ -1,0 +1,33 @@
+# Bray–Curtis on relative abundances: BC = sum(|p - q|) / 2
+
+cat("Select Ptest_used_by_model.csv (Ground Truth)\n")
+P_raw <- read.csv(file.choose(), header = FALSE)
+cat("Select qtest / qtst.csv (Prediction)\n")
+Q_raw <- read.csv(file.choose(), header = FALSE)
+
+# Align to Samples x Species
+P <- t(as.matrix(P_raw))
+Q <- as.matrix(Q_raw)
+
+mode(P) <- "numeric"; mode(Q) <- "numeric"
+P[is.na(P)] <- 0; Q[is.na(Q)] <- 0
+if (!all(dim(P) == dim(Q))) stop("Dimension mismatch!")
+
+# Normalize each sample to relative abundance
+row_norm <- function(M) {
+  rs <- rowSums(M); rs[rs == 0] <- 1
+  M / rs
+}
+P_norm <- row_norm(pmax(P, 0))
+Q_norm <- row_norm(pmax(Q, 0))
+
+# Bray–Curtis (compositional)
+bc <- rowSums(abs(P_norm - Q_norm)) / 2
+
+print(summary(bc))
+
+write.csv(
+  data.frame(Sample_Index = seq_along(bc), Bray_Curtis = bc),
+  "BC_relative_abundance.csv",
+  row.names = FALSE
+)

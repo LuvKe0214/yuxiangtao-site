@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Student</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Student</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bioinformatics and Machine Learning</title>
+      <link>http://localhost:1313/research/topic-1/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/topic-1/</guid>
+      <description>Investigated microbial community stability using cNODE to predict temporal interactions and species composition.</description>
+    </item>
+    <item>
+      <title>LLM Interpretability and Evaluation</title>
+      <link>http://localhost:1313/research/topic-2/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/topic-2/</guid>
+      <description>Studied Transformer internal logic and implemented RAG to address the &amp;lsquo;black-box&amp;rsquo; nature of LLMs</description>
+    </item>
+    <item>
+      <title>Daily Pulse: News Summary Aggregator</title>
+      <link>http://localhost:1313/projects/project-1/</link>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-1/</guid>
+      <description>A hackathon built news aggregator that turns daily headlines into short, neutral bullet summaries across multiple categories.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;short-bio&#34;&gt;Short Bio&lt;/h2&gt;
+&lt;p&gt;Hi，I&amp;rsquo;m Yuxiang (Elias). I&amp;rsquo;m a first year Computer Science student at OSU. I&amp;rsquo;m interested in AI, data analysis, and building high tech tools that solve real-world problems.
+I enjoy work where you can’t “fake it”，the data is imperfect, the system is complex, and progress comes from testing, iterating, and staying honest about what holds up. I value teamwork and service, and I try to show up consistently whether that’s in a lab, a project team, or community work. Long term, I want to build technology that helps people live better, with the hope of contributing, however small to a more peaceful and caring world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Academics/Skills</title>
+      <link>http://localhost:1313/academics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/academics/</guid>
+      <description>&lt;h2 id=&#34;snapshot&#34;&gt;Snapshot&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Major: Computer Science Engineering&lt;/li&gt;
+&lt;li&gt;GPA: 3.94&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;skills--tools&#34;&gt;Skills / Tools&lt;/h1&gt;
+&lt;h3 id=&#34;languages&#34;&gt;Languages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Python · R · Java · HTML/CSS · basic JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data--visualization&#34;&gt;Data &amp;amp; Visualization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;pandas/NumPy · data cleaning &amp;amp; analysis&lt;/li&gt;
+&lt;li&gt;matplotlib (plots for reports and projects)&lt;/li&gt;
+&lt;li&gt;working with time-series data (basic)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ml--modeling-coursework--projects&#34;&gt;ML / Modeling (coursework + projects)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PyTorch (training/evaluation workflow, basic)&lt;/li&gt;
+&lt;li&gt;model validation and experiment tracking (basic)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;others&#34;&gt;others&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adobe Premiere Pro (video editing)&lt;/li&gt;
+&lt;li&gt;Microsoft 360&lt;/li&gt;
+&lt;li&gt;writing clear documentation and keeping projects organized&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;coursework&#34;&gt;Coursework&lt;/h2&gt;
+&lt;p&gt;Java Development: Covers the fundamentals of object-oriented programming and application building&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meridian (Career Intelligence SaaS)</title>
+      <link>http://localhost:1313/projects/project-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-2/</guid>
+      <description>A technical foundation for a career pathing platform designed to solve the &amp;lsquo;structural mismatch&amp;rsquo; in the labor market using Next.js 15 and AI-driven parsing..</description>
+    </item>
+    <item>
+      <title>Works</title>
+      <link>http://localhost:1313/works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/works/</guid>
+      <description>&lt;h2 id=&#34;featured&#34;&gt;Featured&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Research Assistant — Microbiome Lab (OSU)&lt;/strong&gt; (Aug 2025–Present) — Reproducing and improving cNODE with PyTorch; combining it with gLV-style dynamics for microbiome time-series simulation and analysis.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Marketing &amp;amp; Campus Promotion Intern — DreamBigCareer&lt;/strong&gt; (Jul 2025–Present) — Social media promotion, student feedback collection, and event support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operations &amp;amp; Data Intern — Pikacard LLC&lt;/strong&gt; (Sep 2025–Dec 2025) — Shipment tracking, order issue handling, and process improvement suggestions to reduce delays.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Line Cook / Steward — The Blackwell Inn (OSU)&lt;/strong&gt; (Feb 3, 2026–Present) — Kitchen support and service operations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kitchen Staff — Chimama Noodle House&lt;/strong&gt; (Jun 2022–May 2025) — Prep, Cook,plating support during peak hours, and kitchen hygiene/inventory organization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;community--leadership-volunteer&#34;&gt;Community &amp;amp; Leadership (Volunteer)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tzu Chi Charity Foundation&lt;/strong&gt; (Sep 2025–Present) — Nursing home visits and community clean-up support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mid-Ohio Worker Association&lt;/strong&gt; (Sep 2025–Present) — Food drive distribution and community canvassing/outreach on worker benefits/resources.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clearview Success After-School Program&lt;/strong&gt; (Jun 2023–Sep 2023) — Tutoring support (math/reading) and classroom management assistance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HR Team Member — OSU CSSS Student Organization&lt;/strong&gt; (Sep 2025–Present) — Volunteer check-in/grouping for events and on-site logistics support.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

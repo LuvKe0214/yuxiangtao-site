@@ -1,0 +1,61 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Student"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 20
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 30
+
+
+[[menu.main]]
+  name = "Works"
+  url = "/works/"
+
+
+
+[[menu.main]]
+  name = "Academics/Skills"
+  url = "/academics/"
+  weight = 60
+
+[params]
+  ShowBreadCrumbs = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Yuxiang Tao"
+    subtitle = "Ohio State University | Computer Science Engineering | Microbiome Simulation & Deep Learning & LLM"
+
+    [[params.profileMode.buttons]]
+      name = "Research"
+      url = "/research/"
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects/"
+
+    [[params.profileMode.buttons]]
+      name = "Works"
+      url = "/works/"
+ 
+
+ 
+
