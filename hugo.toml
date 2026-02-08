@@ -1,62 +1,42 @@
 baseURL = "https://luvke0214.github.io/yuxiangtao-site/"
-relativeURLs = true
-languageCode = "en-us"
 title = "Student"
+languageCode = "en-us"
 theme = "PaperMod"
+enableRobotsTXT = true
 
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 10
-
-[[menu.main]]
-  name = "Research"
-  url = "/research/"
-  weight = 20
-
-[[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 30
-
-
-[[menu.main]]
-  name = "Works"
-  url = "/works/"
-
-
-
-[[menu.main]]
-  name = "Academics/Skills"
-  url = "/academics/"
-  weight = 60
+# 关键：修 CSS 路径
+canonifyURLs = true
+relativeURLs = false
 
 [params]
-  ShowBreadCrumbs = true
+  env = "production"
+  defaultTheme = "auto"
+  disableThemeToggle = false
 
-  [params.profileMode]
-    enabled = true
-    title = "Yuxiang Tao"
-    subtitle = "Ohio State University | Computer Science Engineering | Microbiome Simulation & Deep Learning & LLM"
+[menu]
 
-    [[params.profileMode.buttons]]
-      name = "Research"
-      url = "/research/"
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
 
-    [[params.profileMode.buttons]]
-      name = "Projects"
-      url = "/projects/"
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 20
 
-    [[params.profileMode.buttons]]
-      name = "Works"
-      url = "/works/"
- 
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 30
 
- 
+  [[menu.main]]
+    name = "Academics/Skills"
+    url = "/academics/"
+    weight = 40
+
+  [[menu.main]]
+    name = "Works"
+    url = "/works/"
+    weight = 50
 
