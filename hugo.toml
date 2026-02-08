@@ -1,8 +1,9 @@
 baseURL = "https://luvke0214.github.io/yuxiangtao-site/"
+relativeURLs = true
 languageCode = "en-us"
 title = "Student"
 theme = "PaperMod"
-enableRobotsTXT = true
+
 
 [markup]
   [markup.goldmark]
