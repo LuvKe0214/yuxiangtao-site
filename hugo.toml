@@ -4,7 +4,7 @@ languageCode = "en-us"
 theme = "PaperMod"
 enableRobotsTXT = true
 
-# 关键：修 CSS 路径
+# ✅ 关键：强制用绝对 URL，避免 ./ 这种相对路径
 canonifyURLs = true
 relativeURLs = false
 
@@ -14,27 +14,22 @@ relativeURLs = false
   disableThemeToggle = false
 
 [menu]
-
   [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 10
-
   [[menu.main]]
     name = "Research"
     url = "/research/"
     weight = 20
-
   [[menu.main]]
     name = "Projects"
     url = "/projects/"
     weight = 30
-
   [[menu.main]]
     name = "Academics/Skills"
     url = "/academics/"
     weight = 40
-
   [[menu.main]]
     name = "Works"
     url = "/works/"
