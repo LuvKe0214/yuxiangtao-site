@@ -35,8 +35,8 @@ relativeURLs = false
     url = "/works/"
     weight = 50
 
-    
-    [params.profileMode]
+
+  [params.profileMode]
   enabled = true
   title = "Yuxiang Tao"
   subtitle = "Ohio State University | Computer Science Engineering | Microbiome Simulation & Deep Learning & LLM"
@@ -54,3 +54,5 @@ relativeURLs = false
     url = "/works/"
 
 
+
+  
