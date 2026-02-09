@@ -1,56 +1,56 @@
-baseURL = "https://luvke0214.github.io/yuxiangtao-site/"
-title = "Student"
-languageCode = "en-us"
-theme = "PaperMod"
-enableRobotsTXT = true
+  baseURL = "https://luvke0214.github.io/yuxiangtao-site/"
+  title = "Student"
+  languageCode = "en-us"
+  theme = "PaperMod"
+  enableRobotsTXT = true
 
-canonifyURLs = true
-relativeURLs = false
+  canonifyURLs = true
+  relativeURLs = false
 
-[params]
-  env = "production"
-  defaultTheme = "auto"
-  disableThemeToggle = false
+  [params]
+    env = "production"
+    defaultTheme = "auto"
+    disableThemeToggle = false
 
-  [params.profileMode]
-    enabled = true
-    title = "Yuxiang Tao"
-    subtitle = "Ohio State University | Computer Science Engineering | Microbiome Simulation & Deep Learning & LLM"
+    [params.profileMode]
+      enabled = true
+      title = "Yuxiang Tao"
+      subtitle = "Ohio State University | Computer Science Engineering | Microbiome Simulation & Deep Learning & LLM"
 
-    [[params.profileMode.buttons]]
+      [[params.profileMode.buttons]]
+        name = "Research"
+        url = "https://luvke0214.github.io/yuxiangtao-site/research/"
+
+      [[params.profileMode.buttons]]
+        name = "Projects"
+        url = "https://luvke0214.github.io/yuxiangtao-site/projects/"
+
+      [[params.profileMode.buttons]]
+        name = "Works"
+        url = "https://luvke0214.github.io/yuxiangtao-site/works/"
+
+  [menu]
+    [[menu.main]]
+      name = "About"
+    url = "https://luvke0214.github.io/yuxiangtao-site/about/"
+      weight = 10
+
+    [[menu.main]]
       name = "Research"
       url = "https://luvke0214.github.io/yuxiangtao-site/research/"
+      weight = 20
 
-    [[params.profileMode.buttons]]
+    [[menu.main]]
       name = "Projects"
       url = "https://luvke0214.github.io/yuxiangtao-site/projects/"
+      weight = 30
 
-    [[params.profileMode.buttons]]
+    [[menu.main]]
+      name = "Academics/Skills"
+     url = "https://luvke0214.github.io/yuxiangtao-site/academics/"
+      weight = 40
+
+    [[menu.main]]
       name = "Works"
-      url = "https://luvke0214.github.io/yuxiangtao-site/works/"
-
-[menu]
-  [[menu.main]]
-    name = "About"
-   url = "https://luvke0214.github.io/yuxiangtao-site/about/"
-    weight = 10
-
-  [[menu.main]]
-    name = "Research"
-    url = "https://luvke0214.github.io/yuxiangtao-site/research/"
-    weight = 20
-
-  [[menu.main]]
-    name = "Projects"
-    url = "projects/"
-    weight = 30
-
-  [[menu.main]]
-    name = "Academics/Skills"
-    url = "academics/"
-    weight = 40
-
-  [[menu.main]]
-    name = "Works"
-    url = "works/"
-    weight = 50
+    url = "https://luvke0214.github.io/yuxiangtao-site/works/"
+      weight = 50

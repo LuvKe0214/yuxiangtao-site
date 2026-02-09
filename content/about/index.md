@@ -15,6 +15,11 @@ I enjoy work where you can’t “fake it”，the data is imperfect, the system
 I’m looking for an environment with strong mentorship and hands on projects, where I can keep building, testing, and learning
 
 
+##Contacts
+- 929-788-3133
+- yxt070202@gmail.com
+- https://github.com/LuvKe0214
+
 ## Fun Facts
 - I’m happiest when I’m cooking something new and sharing it with family.
 - I like trying to make complicated things simpler or make simpler things complicated

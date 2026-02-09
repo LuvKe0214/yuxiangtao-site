@@ -1,21 +1,20 @@
 ---
-title: "Meridian (Career Intelligence SaaS)"
-summary: "A technical foundation for a career pathing platform designed to solve the 'structural mismatch' in the labor market using Next.js 15 and AI-driven parsing.."
+title: "Daily Pulse: News Summary Aggregator"
+date: 2025-10-27
+summary: "A hackathon built news aggregator that turns daily headlines into short, neutral bullet summaries across multiple categories."
 tags: ["project"]
 ---
 
 ## Overview
-The project is currently a "Server-First" skeleton. The focus has been on building a solid technical foundation—handling data flow and security rather than polishing a UI that doesn't have a brain yet. It’s more of a functional prototype than a finished product
+Built at an OSU hackathon, Daily Pulse aggregates news across categories like tech, politics, world affairs, and entertainment, then formats each topic into a quick three-bullets recap. The focus was on readability and consistency which more like a daily briefing than a chat interface.
+-Check out the [Daily Pulse Repository](https://dailypulsesearch.com/) for the web
 
 ## What I did
-- Hardcoded the "AI Constitution": Created a strict .cursorrules file for the IDE. This forces the AI to stop using outdated React patterns and follow Next.js 15’s specific rules (like async cookie handling and functional logic) so the codebase doesn't turn into "vibe coding" spaghetti.
+**Summary rules & prompt design:** Defined a “news editor” instruction set to keep tone neutral and output consistent in a three-bullet format.  
+- **The day on the history:** small fun part about the day of history 
+- **Multi-category pipeline:** Set up an automated pipeline that pulls and organizes stories by category
 
-- Built the Plumbing: Connected Next.js 15 with Supabase. I set up Row Level Security (RLS) and Postgres triggers so that user profiles and permissions are created and secured automatically the moment someone signs up.
 
-- Resume Parsing Pipeline: Prototyped a working "digital factory" line. It takes a PDF, extracts the raw text with pdf-parse, and uses Claude 3.5 Sonnet to force that mess into a clean, standardized JSON Resume format.
-
-- Market Logic Research: Deep-dived into 2025 labor trends, specifically "degree inflation" and "skill adjacency."This provided the theoretical basis for the scoring system, even though the code for it isn't finished yet
-## Still need to finish
-The "Intelligence" is missing: The Risk Score algorithm is just a collection of research notes and math formulas; I haven't actually written the backend logic to calculate it yet.
-No Visuals: The interactive career maps (React Flow) mentioned in the plan haven't been touched. There are zero charts or roadmaps in the current build.
-I'm keep doing it!
+## Outcome
+Won Most Creative Award (AI Studio section) at the OSU Hackathon (Oct 2025).  
+This is the first project i used AI to build, link to the API is like built a small agent

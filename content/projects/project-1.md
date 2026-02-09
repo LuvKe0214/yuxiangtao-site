@@ -1,19 +1,18 @@
 ---
-title: "Daily Pulse: News Summary Aggregator"
-date: 2025-10-27
-summary: "A hackathon built news aggregator that turns daily headlines into short, neutral bullet summaries across multiple categories."
-tags: ["project"]
+title: "MicroCosmos-3D: Interactive GLV Simulation"
+date: 2025-12-07
+summary: "A real-time 3D visualization of microbial population dynamics driven by differential equations and WebGL."
+tags: ["project", "Simulation", "WebGL", "Math"]
 ---
 
 ## Overview
-Built at an OSU hackathon, Daily Pulse aggregates news across categories like tech, politics, world affairs, and entertainment, then formats each topic into a quick three-bullets recap. The focus was on readability and consistency which more like a daily briefing than a chat interface.
+MicroCosmos-3D is a "virtual laboratory" designed to visualize the mathematical beauty of ecological stability and chaos. Unlike static charts, this web application simulates a living ecosystem of 3,000+ interactive particles. It bridges the gap between computational biology and modern web engineering by rendering complex Generalized Lotka-Volterra (GLV) dynamics in real-time.
+Check out the [MicroCosmos-3D](https://microcosmos-3d.vercel.app/) for the view
 
 ## What I did
-**Summary rules & prompt design:** Defined a “news editor” instruction set to keep tone neutral and output consistent in a three-bullet format.  
-- **The day on the history:** small fun part about the day of history 
-- **Multi-category pipeline:** Set up an automated pipeline that pulls and organizes stories by category
-
+**Mathematical Modeling:** Implemented a custom Euler integration solver in TypeScript to calculate the ODEs (Ordinary Differential Equations) for predator-prey interactions frame-by-frame.
+- **High-Performance Rendering:** Utilized React Three Fiber and GPU instancing (InstancedMesh) to render thousands of individual agents with minimal CPU overhead.
+- **Interactive Analytics:** Built a real-time data pipeline that visualizes population fluctuations via dynamic charts (Recharts) and allows users to manipulate environmental parameters to trigger ecological events like "Mass Extinction" or "Stable Equilibrium."
 
 ## Outcome
-Won Most Creative Award (AI Studio section) at the OSU Hackathon (Oct 2025).  
-This is the first project i used AI to build, link to the API is like built a small agent
+Successfully deployed a full-stack scientific visualization tool. This project demonstrates the practical application of calculus in computer science and serves as an interactive educational platform for understanding complex system dynamics.
